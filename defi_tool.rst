@@ -2,7 +2,7 @@
 Contract Tool
 =============
 
-This tool aims to help a developer quickly generate smart contract boilerplate code with the parametric specifications of their choosing. It helps a user codify what they learned in the Insights tool into smart contract boilerplate code. This code can then be extended to serve any application a developer might need.
+The Contracts_ Tool_ aims to help a developer quickly generate smart contract boilerplate code with the parametric specifications of their choosing. It helps a user codify what they learned in the Insights tool into smart contract boilerplate code. This code can then be extended to serve any application a developer might need.
 
 Introduction
 ------------
@@ -46,3 +46,7 @@ Usage
 10. Copy this code from this tab and into your favorite development environment.
 11. The code allows you to get geospatial data for an area into your smart contract. 
 12. You can now use this data in any real-world application you are developing.
+
+
+.. _Contracts: https://contracts.shamba.app
+.. _Tool: https://contracts.shamba.app

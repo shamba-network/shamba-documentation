@@ -2,7 +2,7 @@
 Insights Tool
 =============
 
-This tool is intended to help a user explore the datasets provided by our oracle for any specified area of interest. Use it to get insights into the right datasets, metrics and thresholds to use in your smart contract for any given area.
+The Insights_ Tool_ is intended to help a user explore the datasets provided by our oracle for any specified area of interest. Use it to get insights into the right datasets, metrics and thresholds to use in your smart contract for any given area.
 
 
 Introduction
@@ -41,3 +41,7 @@ Usage
 12. State examples: wet vs dry season (precipitation), lush vs barren season (vegetation).
 13. Define the dataset-metric-threshold combinations that characterize an area of interest.
 14. Use these thresholds as parametric triggers in smart contracts for that area of interest.
+
+
+.. _Insights: https://insights.shamba.app
+.. _Tool: https://insights.shamba.app

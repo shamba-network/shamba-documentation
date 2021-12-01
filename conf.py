@@ -46,16 +46,19 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-# alabaster, topos-theme, groundwork, 
+# alabaster, topos-theme, groundwork, sphinx_rtd_theme
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_logo = "_static/shamba_logo.png"
+html_logo = "_static/shamba_logo_new.png"
 html_theme_options = {
-    'logo_only': True
+    'logo_only': True,
+    #'style_nav_header_background': 'white',
 }
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }

@@ -74,6 +74,8 @@ Evapo-Transpiration
                 +--------------------------+--------------------------+
                 | Bands                    | L1_AETI_D                |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Africa                   |
+                +--------------------------+--------------------------+
 
         - .. figure:: _static/Shamba_Dataset_Flyers_02.png
                 :target: Link_2_
@@ -89,6 +91,8 @@ Evapo-Transpiration
                 +--------------------------+--------------------------+
                 | Bands                    | L1_RET_E                 |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Africa                   |
+                +--------------------------+--------------------------+
     
     *   - .. figure:: _static/Shamba_Dataset_Flyers_03.png
                 :target: Link_3_
@@ -103,6 +107,8 @@ Evapo-Transpiration
                 | Image Capture Frequency  | 8 days                   |
                 +--------------------------+--------------------------+
                 | Bands                    | ET                       |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
         -
@@ -126,6 +132,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Bands                    | BurnDate                 |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_17.png
                 :target: Link_5_
@@ -140,6 +148,8 @@ Fire
                 | Image Capture Frequency  | Daily                    |
                 +--------------------------+--------------------------+
                 | Bands                    | MaxFRP                   |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_18.png
@@ -156,6 +166,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Bands                    | MaxFRP                   |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_19.png
                 :target: Link_7_
@@ -171,6 +183,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Bands                    | Power                    |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Americas, West Africa    |
+                +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_20.png
                 :target: Link_8_
@@ -185,6 +199,8 @@ Fire
                 | Image Capture Frequency  | 5 - 15 minutes           |
                 +--------------------------+--------------------------+
                 | Bands                    | Power                    |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Americas, West Africa    |
                 +--------------------------+--------------------------+
                 
         -
@@ -208,6 +224,8 @@ Precipitation
                 +--------------------------+--------------------------+
                 | Bands                    | Precipitation            |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_06.png
                 :target: Link_10_
@@ -223,6 +241,8 @@ Precipitation
                 +--------------------------+--------------------------+
                 | Bands                    | Precipitation            |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_07.png
                 :target: Link_11_
@@ -237,6 +257,8 @@ Precipitation
                 | Image Capture Frequency  | Hourly                   |
                 +--------------------------+--------------------------+
                 | Bands                    | hourlyPrecipRate         |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
         - 
@@ -260,6 +282,8 @@ Soil Moisture
                 +--------------------------+--------------------------+
                 | Bands                    | ssm                      |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         -
 
@@ -282,6 +306,8 @@ Temperature
                 +--------------------------+--------------------------+
                 | Bands                    | LST_Day_1km              |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_10.png
                 :target: Link_14_
@@ -296,6 +322,8 @@ Temperature
                 | Image Capture Frequency  | Daily                    |
                 +--------------------------+--------------------------+
                 | Bands                    | LST_Day_1km              |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
 Vegetation
@@ -317,6 +345,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Bands                    | NDVI, EVI                |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_11.png
                 :target: Link_16_
@@ -331,6 +361,8 @@ Vegetation
                 | Image Capture Frequency  | 4 days                   |
                 +--------------------------+--------------------------+
                 | Bands                    | Fpar, Lai                |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_12.png
@@ -347,6 +379,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Bands                    | NDVI, EVI                |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_13.png
                 :target: Link_18_
@@ -361,6 +395,8 @@ Vegetation
                 | Image Capture Frequency  | 16 days                  |
                 +--------------------------+--------------------------+
                 | Bands                    | NDVI, EVI                |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_14.png
@@ -377,6 +413,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Bands                    | Fpar, Lai                |
                 +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_15.png
                 :target: Link_20_
@@ -391,6 +429,8 @@ Vegetation
                 | Image Capture Frequency  | 16 days                  |
                 +--------------------------+--------------------------+
                 | Bands                    | NDVI, EVI, EVI2          |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
                 
 .. _Link_3: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD16A2

@@ -8,10 +8,12 @@ The Shamba oracle currently supports running two types of analytics on geospatia
 Descriptive Statistics Analysis
 -------------------------------
 
-This analysis aims at getting descriptive statistics. Given an area of interest and a dataset to reference, this analysis returns standard metrics such as maximum, minimum, mean, median and variance. These descriptive statistics are useful for setting thresholds and triggers in many parametric smart contracts. Use the appropriate jobID to get the required statistical metric.
+This analysis aims at getting descriptive statistics. Given an area of interest and a dataset to reference, this analysis returns standard metrics such as maximum, minimum, mean, median and variance. These descriptive statistics are useful for setting thresholds and triggers in many parametric smart contracts. The required statistical metric is specified in the “agg_x” parameter.
+
 
 Inputs:
 
+- "agg_x": "string",
 - "dataset_code": "string",
 - "selected_band": "string",
 - "geometry": {json},

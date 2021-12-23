@@ -58,7 +58,7 @@ html_static_path = ['_static']
 html_logo = "_static/shamba_logo_new.png"
 html_theme_options = {
     'logo_only': True,
-    #'style_nav_header_background': 'white',
+    'style_nav_header_background': 'purple',
 }
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }

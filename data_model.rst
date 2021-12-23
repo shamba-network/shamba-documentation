@@ -23,10 +23,10 @@ Inputs:
 
 Outputs:
 
-- uint256
+- int256
 
-Topology Analysis
------------------
+Topology Analysis - Coming Soon
+-------------------------------
 
 This analysis aims at determining if an area of interest falls within a larger area. It performs a topology analysis to determine if a hazard such as a fire affects a specified area of interest. Given an area of interest and a dataset to reference, this analysis returns a boolean indicating whether a hazard was detected or not. This analysis serves applications such as insurance.
 
@@ -76,6 +76,8 @@ Evapo-Transpiration
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Africa                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_1_                  |
+                +--------------------------+--------------------------+
 
         - .. figure:: _static/Shamba_Dataset_Flyers_02.png
                 :target: Link_2_
@@ -93,6 +95,8 @@ Evapo-Transpiration
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Africa                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_2_                  |
+                +--------------------------+--------------------------+
     
     *   - .. figure:: _static/Shamba_Dataset_Flyers_03.png
                 :target: Link_3_
@@ -109,6 +113,8 @@ Evapo-Transpiration
                 | Bands                    | ET                       |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_3_                  |
                 +--------------------------+--------------------------+
                 
         -
@@ -134,6 +140,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_4_                  |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_17.png
                 :target: Link_5_
@@ -150,6 +158,8 @@ Fire
                 | Bands                    | MaxFRP                   |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_5_                  |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_18.png
@@ -168,6 +178,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_6_                  |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_19.png
                 :target: Link_7_
@@ -185,6 +197,8 @@ Fire
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Americas, West Africa    |
                 +--------------------------+--------------------------+
+                | Read More                | Link_7_                  |
+                +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_20.png
                 :target: Link_8_
@@ -201,6 +215,8 @@ Fire
                 | Bands                    | Power                    |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Americas, West Africa    |
+                +--------------------------+--------------------------+
+                | Read More                | Link_8_                  |
                 +--------------------------+--------------------------+
                 
         -
@@ -226,6 +242,8 @@ Precipitation
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_9_                  |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_06.png
                 :target: Link_10_
@@ -243,6 +261,8 @@ Precipitation
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_10_                 |
+                +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_07.png
                 :target: Link_11_
@@ -259,6 +279,8 @@ Precipitation
                 | Bands                    | hourlyPrecipRate         |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_11_                 |
                 +--------------------------+--------------------------+
                 
         - 
@@ -284,7 +306,8 @@ Soil Moisture
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
-                
+                | Read More                | Link_12_                 |
+                +--------------------------+--------------------------+
         -
 
 Temperature
@@ -308,6 +331,8 @@ Temperature
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_13_                 |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_10.png
                 :target: Link_14_
@@ -324,6 +349,8 @@ Temperature
                 | Bands                    | LST_Day_1km              |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_14_                 |
                 +--------------------------+--------------------------+
                 
 Vegetation
@@ -347,6 +374,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_15_                 |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_11.png
                 :target: Link_16_
@@ -363,6 +392,8 @@ Vegetation
                 | Bands                    | Fpar, Lai                |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_16_                 |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_12.png
@@ -381,6 +412,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_17_                 |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_13.png
                 :target: Link_18_
@@ -397,6 +430,8 @@ Vegetation
                 | Bands                    | NDVI, EVI                |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_18_                 |
                 +--------------------------+--------------------------+
                 
     *   - .. figure:: _static/Shamba_Dataset_Flyers_14.png
@@ -415,6 +450,8 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
                 +--------------------------+--------------------------+
+                | Read More                | Link_19_                 |
+                +--------------------------+--------------------------+
                 
         - .. figure:: _static/Shamba_Dataset_Flyers_15.png
                 :target: Link_20_
@@ -431,6 +468,8 @@ Vegetation
                 | Bands                    | NDVI, EVI, EVI2          |
                 +--------------------------+--------------------------+
                 | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_20_                 |
                 +--------------------------+--------------------------+
                 
 .. _Link_3: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD16A2

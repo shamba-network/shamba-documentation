@@ -38,14 +38,13 @@ Usage
 2. The web map allows you to search for an area and designate its boundary.
 3. Use the search input to search by name and zoom into your area of interest.
 4. Use the drawing tools on the web map to specify what your area of interest is.
-5. This will generate some Geojson that describes the boundaries of this area.
-6. Next use the input tab to specify the dataset-metric-threshold combination.
-7. Select the options for each input field and submit the form to generate code.
+5. This will generate some Json that describes the boundaries of this area.
+6. Next use the parameters tab to specify the input dataset and band.
+7. Select the option for each input field and submit the form to generate code.
 8. On the request tab, you will find the Json representation of your specification.
 9. On the code tab, you will find the smart contract boilerplate code with these specs.
-10. Copy this code from this tab and into your favorite development environment.
-11. The code allows you to get geospatial data for an area into your smart contract. 
-12. You can now use this data in any real-world application you are developing.
+10. Copy this code from this tab and into your favorite development environment to extend.
+
 
 
 .. _Contracts: https://contracts.shamba.app

@@ -124,26 +124,7 @@ Fire
 
 .. list-table:: 
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_16.png
-                :target: Link_4_
-
-                ..
-
-                +--------------------------+--------------------------+
-                | Properties               | Value                    |
-                +==========================+==========================+
-                | Pixel Size (metres)      | 500                      |
-                +--------------------------+--------------------------+
-                | Image Capture Frequency  | Monthly                  |
-                +--------------------------+--------------------------+
-                | Bands                    | BurnDate                 |
-                +--------------------------+--------------------------+
-                | Geographic Coverage      | Global                   |
-                +--------------------------+--------------------------+
-                | Read More                | Link_4_                  |
-                +--------------------------+--------------------------+
-                
-        - .. figure:: _static/Shamba_Dataset_Flyers_17.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_17.png
                 :target: Link_5_
 
                 ..
@@ -162,7 +143,7 @@ Fire
                 | Read More                | Link_5_                  |
                 +--------------------------+--------------------------+
                 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_18.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_18.png
                 :target: Link_6_
 
                 ..
@@ -181,7 +162,7 @@ Fire
                 | Read More                | Link_6_                  |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_19.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_19.png
                 :target: Link_7_
 
                 ..
@@ -200,7 +181,7 @@ Fire
                 | Read More                | Link_7_                  |
                 +--------------------------+--------------------------+
                 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_20.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_20.png
                 :target: Link_8_
 
                 ..
@@ -218,8 +199,6 @@ Fire
                 +--------------------------+--------------------------+
                 | Read More                | Link_8_                  |
                 +--------------------------+--------------------------+
-                
-        -
 
 Precipitation
 ^^^^^^^^^^^^^
@@ -477,7 +456,6 @@ Vegetation
 .. _Link_2: https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_RET_E
 .. _Link_7: https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_16_FDCF
 .. _Link_8: https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_FDCF
-.. _Link_4: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD64A1
 .. _Link_5: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD14A1
 .. _Link_6: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MYD14A1
 .. _Link_10: https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY

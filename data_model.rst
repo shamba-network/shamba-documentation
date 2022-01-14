@@ -54,6 +54,145 @@ Thematic Areas & Dataset
 
 The Shamba oracle uses regularly updated geospatial data from various global providers. Different providers use different algorithms to compute the same metric, so it is recommended that users go through the literature for each dataset. Normalization has been performed where necessary to standardize values from different datasets under a common theme.
 
+Air
+^^^
+
+.. list-table:: 
+
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_21.png
+                :target: Link_21_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | CO_column_number_density |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_21_                 |
+                +--------------------------+--------------------------+
+
+        - .. figure:: _static/Shamba_Dataset_Flyers_22.png
+                :target: Link_22_
+
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | CO_column_number_density |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_22_                 |
+                +--------------------------+--------------------------+
+    
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_23.png
+                :target: Link_23_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | SO2_column_number_density|
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_23_                 |
+                +--------------------------+--------------------------+
+
+        - .. figure:: _static/Shamba_Dataset_Flyers_24.png
+                :target: Link_24_
+
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | SO2_column_number_density|
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_24_                 |
+                +--------------------------+--------------------------+
+
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_25.png
+                :target: Link_25_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | NO2_column_number_density|
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_25_                 |
+                +--------------------------+--------------------------+
+
+        - .. figure:: _static/Shamba_Dataset_Flyers_26.png
+                :target: Link_26_
+
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | NO2_column_number_density|
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_26_                 |
+                +--------------------------+--------------------------+
+
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_27.png
+                :target: Link_27_
+
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 1113.2                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | CH4_column_number_density|
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_27_                 |
+                +--------------------------+--------------------------+
+                
+        -
 
 Evapo-Transpiration
 ^^^^^^^^^^^^^^^^^^^
@@ -262,7 +401,25 @@ Precipitation
                 | Read More                | Link_11_                 |
                 +--------------------------+--------------------------+
                 
-        - 
+        - .. figure:: _static/Shamba_Dataset_Flyers_28.png
+                :target: Link_28_
+
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 4638.3                   |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 5 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | Precipitation            |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | USA                      |
+                +--------------------------+--------------------------+
+                | Read More                | Link_28_                 |
+                +--------------------------+--------------------------+
+ 
 
 Soil Moisture
 ^^^^^^^^^^^^^
@@ -450,6 +607,82 @@ Vegetation
                 +--------------------------+--------------------------+
                 | Read More                | Link_20_                 |
                 +--------------------------+--------------------------+
+
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_29.png
+                :target: Link_29_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 30                       |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 16 days                  |
+                +--------------------------+--------------------------+
+                | Bands                    | GPP                      |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | USA                      |
+                +--------------------------+--------------------------+
+                | Read More                | Link_29_                 |
+                +--------------------------+--------------------------+
+                
+        - .. figure:: _static/Shamba_Dataset_Flyers_30.png
+                :target: Link_30_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 250                      |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 8 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | GPP                      |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | USA                      |
+                +--------------------------+--------------------------+
+                | Read More                | Link_30_                 |
+                +--------------------------+--------------------------+
+
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_31.png
+                :target: Link_31_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 500                      |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 8 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | Gpp                      |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_31_                 |
+                +--------------------------+--------------------------+
+                
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
+                :target: Link_32_
+                
+                ..
+
+                +--------------------------+--------------------------+
+                | Properties               | Value                    |
+                +==========================+==========================+
+                | Pixel Size (metres)      | 500                      |
+                +--------------------------+--------------------------+
+                | Image Capture Frequency  | 8 days                   |
+                +--------------------------+--------------------------+
+                | Bands                    | Gpp                      |
+                +--------------------------+--------------------------+
+                | Geographic Coverage      | Global                   |
+                +--------------------------+--------------------------+
+                | Read More                | Link_32_                 |
+                +--------------------------+--------------------------+
                 
 .. _Link_3: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD16A2
 .. _Link_1: https://developers.google.com/earth-engine/datasets/catalog/FAO_WAPOR_2_L1_AETI_D
@@ -470,3 +703,15 @@ Vegetation
 .. _Link_19: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MYD15A2H
 .. _Link_15: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR
 .. _Link_20: https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP13A1
+.. _Link_21: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO
+.. _Link_22: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CO
+.. _Link_23: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_SO2
+.. _Link_24: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_SO2
+.. _Link_25: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_NO2
+.. _Link_26: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2
+.. _Link_27: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4
+.. _Link_28: https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT
+.. _Link_29: https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_LANDSAT_GPP
+.. _Link_30: https://developers.google.com/earth-engine/datasets/catalog/UMT_NTSG_v2_MODIS_GPP
+.. _Link_31: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MYD17A2H
+.. _Link_32: https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD17A2H

@@ -57,8 +57,9 @@ The Shamba oracle uses regularly updated geospatial data from various global pro
 Air
 ^^^
 
-.. list-table:: 
-
+.. list-table::
+   
+   
     *   - .. figure:: _static/Shamba_Dataset_Flyers_21.png
                 :target: Link_21_
                 

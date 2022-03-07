@@ -13,9 +13,11 @@ Shamba Oracle and Job IDs
 +=====================+============================================+
 | ETH_CHAIN_ID        | 42                                         |
 +---------------------+--------------------------------------------+
-| Contract Address    | 0xd5CEd81bcd8D8e06E6Ca67AB9988c92CA78EEfe6 |
+| Oracle Address      | 0xd5CEd81bcd8D8e06E6Ca67AB9988c92CA78EEfe6 |
 +---------------------+--------------------------------------------+
 | Job ID - Statistics | 5000f186a1b34b19998aa8e5a5e08c92           |
++---------------------+--------------------------------------------+
+| Job ID - Fire       | ede91260d7654fccab31c6141cfe1a90           |
 +---------------------+--------------------------------------------+
 
 
@@ -45,13 +47,13 @@ Known Issues
 
 The geospatial analytics engine for this oracle is built on the Google Cloud Platform. Any performance bottlenecks on services such as Google Earth Engine will affect the availability of this analytics engine. Developers are advised to build their smart contracts in such a way that data requests can be retried later if they fail at any given time.
 
-Similarly, how up-to-date a dataset served by this oracle is depends on how up-to-date the GCP GEE archives are. We recommend reading more about a dataset you intend to use to learn about its details including granularity and availability.
+Similarly, how up-to-date a dataset served by this oracle is, depends on how up-to-date the GEE data registries are. We recommend reading more about a dataset you intend to use to learn about its details including granularity and availability.
 
 In particular, users are advised to check the geographic coverage of the dataset they want to use. Some datasets offer regional coverage while others offer global coverage.
 
-Links to the GEE archives for each dataset we provide are given in the Data Model section of this documentation.
+Links to the GEE pages for each dataset we provide are given in the datasets section of this documentation.
 
-Specifications with very large areas of interest or long durations of time may cause the analytics engine to time out. Again this is an inherent limitation of the GCP GEE service and developers are advised to keep this in mind when specifying their geospatial analytics requests.
+Specifications with very large areas of interest or long durations of time may cause the analytics API to time out. Developers are advised to keep this in mind when specifying their geographical extents.
 
 
 

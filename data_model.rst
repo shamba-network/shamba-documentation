@@ -25,10 +25,10 @@ Outputs:
 
 - int256
 
-Topology Analysis - Coming Soon
--------------------------------
+Fire Analysis
+-------------
 
-This analysis aims at determining if an area of interest falls within a larger area. It performs a topology analysis to determine if a hazard such as a fire affects a specified area of interest. Given an area of interest and a dataset to reference, this analysis returns a boolean indicating whether a hazard was detected or not. This analysis serves applications such as insurance.
+This analysis aims at determining if an area of interest falls within a detected fire. It performs a topology analysis to determine if a fire extends to a specified area of interest. Given an area of interest and a dataset to reference, this analysis returns a boolean indicating whether a fire was detected or not. Boolean values (1 - TRUE, 0 - FALSE).
 
 Inputs:
 
@@ -41,7 +41,7 @@ Inputs:
 
 Outputs:
 
-- uint256
+- uint256 (1 - TRUE, 0 - FALSE)
 
 The GeoAPI that Powers our Oracle
 ---------------------------------

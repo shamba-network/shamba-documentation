@@ -54,8 +54,8 @@ Thematic Areas & Dataset
 
 The Shamba oracle uses regularly updated geospatial data from various global providers. Different providers use different algorithms to compute the same metric, so it is recommended that users go through the literature for each dataset. Normalization has been performed where necessary to standardize values from different datasets under a common theme.
 
-Air
-^^^
+Air Quality
+^^^^^^^^^^^
 
 .. list-table::
    

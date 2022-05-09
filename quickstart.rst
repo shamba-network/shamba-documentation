@@ -2,7 +2,7 @@
 Quick Start
 ===========
 
-Our data is accessible through the Chainlink decentralized oracle network. The table below gives the address and jobIDs that you need to specify so as to get data from our oracle. You can visit the Chainlink_ documentation_ to learn more about working with their oracle network.
+Our data is accessible through the Chainlink decentralized oracle network. The table below gives the operator address and jobIDs that you need to specify so as to get data from our oracle. You can visit the Chainlink_ documentation_ to learn more about working with their oracle network.
 
 
 Shamba Oracle and Job IDs
@@ -13,18 +13,18 @@ Shamba Oracle and Job IDs
 +=====================+============================================+
 | ETH_CHAIN_ID        | 42                                         |
 +---------------------+--------------------------------------------+
-| Oracle Address      | 0xd5CEd81bcd8D8e06E6Ca67AB9988c92CA78EEfe6 |
+| Oracle Address      | 0xf4434feDd55D3d6573627F39fA39867b23f4Bf7F |
 +---------------------+--------------------------------------------+
-| Job ID - Statistics | 5000f186a1b34b19998aa8e5a5e08c92           |
+| Job ID - Statistics | 83191779e6c74593b7a99bea8c116e31           |
 +---------------------+--------------------------------------------+
-| Job ID - Fire       | ede91260d7654fccab31c6141cfe1a90           |
+| Job ID - Fire       | fd78aec23f7d4995bf0799cdd38e7e6f           |
 +---------------------+--------------------------------------------+
 
 
 Accessing Shamba Chainlink Oracle
 ---------------------------------
 
-The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to provide the oracle address above and the jobID of the analytics you need performed on a dataset. To make this process easier, we have provided tools for generating boilerplate smart contract code to interact with our data oracle.
+The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to provide the operator address above and the jobID of the analytics you need performed on a dataset. To make this process easier, we have provided tools for generating boilerplate smart contract code to interact with our data oracle.
 
 
 Requesting Data From The Oracle
@@ -32,15 +32,43 @@ Requesting Data From The Oracle
 
 Format the data request using key-value pairs as shown in the README at this link_:
 
-Request Format
-``````````````
+Request Format for Statistics Data
+``````````````````````````````````
 ("data","{"agg_x" : "string", "dataset_code" : "string", "selected_band" : "string", "image_scale" : integer, "start_date" : "string", "end_date" : "string", "geometry" : {"object}}")
 
+Request Format for Fire-Analysis Data
+`````````````````````````````````````
+("data","{"dataset_code" : "string", "selected_band" : "string", "image_scale" : integer, "start_date" : "string", "end_date" : "string", "geometry" : {"object}}")
 
-Response Data
-`````````````
+So, basically depending upon the request body, the common external adapter will trigger the statistics and fire GeoAPI endpoints.
 
-Data returned is of type integer, and is the value from the API multiplied by 10**18. This multiplication is done to remove all decimals from the data being returned on-chain.
+If the value of the data field is having “agg_x” field in its object, then the data will be sent to the statistics endpoint, otherwise it’ll be sent to the fire-analysis endpoint. 
+
+Along with this request being sent to the respective endpoints, the response of the GeoAPI along with the request body and other parameters like operator address, contract address from which the oracle being called, transaction hash generated after the successful oracle call, all of this data is being saved into the Web3 Storage by using the IPFS/Filecoin implementation for the same. 
+
+Response Data for Statistics
+````````````````````````````
+
+Data returned is of type map having two corresponding fields as a string storing the value of cid and an integer storing the value of geostatistic result (which is getting the value from the API multiplied by 10**18. This multiplication is done to remove all decimals from the data being returned on-chain).
+
+Response Data for Fire-Analysis
+```````````````````````````````
+
+Data returned is of type map having two corresponding fields as a string that is storing the cid and an array that is storing the values of fire detection in the sequence of property ids, like 1 (if the fire is detected) and 9 (if the fire is not detected). The reason behind having the values as 1 and 9 is because the by-default value in the solidity (smart contract) is 0, so if there’s no data in any index of the array, then it returns it as 0.
+
+We’re getting the value of fire-detection from the API as true or false, so assigning a value of 1 if it returns true and 9 if it returns false.
+
+Solidity Smart Contract for Statistics
+``````````````````````````````````````
+
+https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup/blob/master/SoliditySmartContracts/GeoConsumer.sol
+
+
+Solidity Smart Contract for Fire-Analysis
+`````````````````````````````````````````
+
+https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup/blob/master/SoliditySmartContracts/FireConsumer.sol
+
 
 Known Issues
 ------------
@@ -57,6 +85,6 @@ Specifications with very large areas of interest or long durations of time may c
 
 
 
-.. _link: https://github.com/shambadynamic/geostatsExternalAdapter
+.. _link: https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup
 .. _Chainlink: https://docs.chain.link
 .. _documentation: https://docs.chain.link

@@ -59,7 +59,7 @@ html_css_files = [
     'style.css',
 ]
 
-html_logo = "_static/shamba_logo_new.png"
+html_logo = "_static/shamba_logo_new_2.png"
 html_theme_options = {
     'logo_only': True,
     'style_nav_header_background': 'purple',

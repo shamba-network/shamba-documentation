@@ -186,7 +186,7 @@ Air Quality
                 | Read More                | Link_26_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_33.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_33_
                 
                 ..
@@ -207,7 +207,7 @@ Air Quality
                 | Read More                | Link_33_                 |
                 +--------------------------+--------------------------+
 
-        - .. figure:: _static/Shamba_Dataset_Flyers_34.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_34_
 
                 ..
@@ -228,7 +228,7 @@ Air Quality
                 | Read More                | Link_34_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_35.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_35_
                 
                 ..
@@ -249,7 +249,7 @@ Air Quality
                 | Read More                | Link_35_                               |
                 +--------------------------+----------------------------------------+
 
-        - .. figure:: _static/Shamba_Dataset_Flyers_36.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_36_
 
                 ..
@@ -291,7 +291,7 @@ Air Quality
                 | Read More                | Link_27_                               |
                 +--------------------------+----------------------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_37.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_37_
 
                 ..
@@ -380,7 +380,7 @@ Evapo-Transpiration
                 | Read More                | Link_3_                  |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_38.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_38_
 
                 ..
@@ -490,7 +490,7 @@ Fire
                 | Read More                | Link_8_                  |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_39.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_39_
 
                 ..
@@ -511,7 +511,7 @@ Fire
                 | Read More                | Link_39_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_40.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_40_
 
                 ..
@@ -532,7 +532,7 @@ Fire
                 | Read More                | Link_40_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_41.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_41_
 
                 ..
@@ -560,7 +560,7 @@ Precipitation
 
 .. list-table:: 
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_42.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_42_
 
                 ..
@@ -644,7 +644,7 @@ Precipitation
                 | Read More                | Link_28_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_43.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_43_
 
                 ..
@@ -665,7 +665,7 @@ Precipitation
                 | Read More                | Link_43_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_44.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_44_
 
                 ..
@@ -686,7 +686,7 @@ Precipitation
                 | Read More                | Link_44_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_45.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_45_
 
                 ..
@@ -707,7 +707,7 @@ Precipitation
                 | Read More                | Link_45_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_46.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_46_
 
                 ..
@@ -803,7 +803,7 @@ Temperature
                 | Read More                | Link_14_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_44.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_44_
 
                 ..
@@ -824,7 +824,7 @@ Temperature
                 | Read More                | Link_44_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_49.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_49_
 
                 ..
@@ -845,7 +845,7 @@ Temperature
                 | Read More                | Link_49_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_47.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_47_
 
                 ..
@@ -866,7 +866,7 @@ Temperature
                 | Read More                | Link_47_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_48.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_48_
 
                 ..
@@ -1018,7 +1018,7 @@ Vegetation
                 | Read More                | Link_20_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_50.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_50_
                 
                 ..
@@ -1039,7 +1039,7 @@ Vegetation
                 | Read More                | Link_50_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_51.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_51_
                 
                 ..
@@ -1060,7 +1060,7 @@ Vegetation
                 | Read More                | Link_51_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_52.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_52_
                 
                 ..
@@ -1081,7 +1081,7 @@ Vegetation
                 | Read More                | Link_52_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_53.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_53_
                 
                 ..
@@ -1103,7 +1103,7 @@ Vegetation
                 +--------------------------+--------------------------+
 
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_54.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_54_
                 
                 ..
@@ -1124,7 +1124,7 @@ Vegetation
                 | Read More                | Link_54_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_55.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_55_
                 
                 ..
@@ -1145,7 +1145,7 @@ Vegetation
                 | Read More                | Link_55_                 |
                 +--------------------------+--------------------------+
     
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_56.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_56_
                 
                 ..
@@ -1166,7 +1166,7 @@ Vegetation
                 | Read More                | Link_56_                 |
                 +--------------------------+--------------------------+
                 
-        - .. figure:: _static/Shamba_Dataset_Flyers_57.png
+        - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_57_
                 
                 ..
@@ -1229,7 +1229,7 @@ Vegetation
                 | Read More                | Link_32_                 |
                 +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_58.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_58_
                 
                 ..
@@ -1257,7 +1257,7 @@ Weather
 
 .. list-table:: 
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_59.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_32.png
                 :target: Link_59_
                 
                 ..

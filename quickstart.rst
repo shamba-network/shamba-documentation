@@ -2,54 +2,48 @@
 Quick Start
 ===========
 
-Our data is accessible through the Chainlink decentralized oracle network. The table below gives the operator address and jobIDs that you need to specify so as to get data from our oracle. You can visit the Chainlink_ documentation_ to learn more about working with their oracle network.
+Our data is accessible through the Chainlink decentralized oracle network. The table below gives the list of networks supported by our oracle and their corresponding details that you need to specify so as to get data from our oracle. You can visit the Chainlink_ documentation_ to learn more about working with their oracle network.
 
 
-Shamba Oracle and Job IDs
+Shamba Oracle and Operator Numbers
 -------------------------
 
-+---------------------+--------------------------------------------+
-| Parameter           | Value                                      |
-+=====================+============================================+
-| ETH_CHAIN_ID        | 42                                         |
-+---------------------+--------------------------------------------+
-| Oracle Address      | 0xf4434feDd55D3d6573627F39fA39867b23f4Bf7F |
-+---------------------+--------------------------------------------+
-| Job ID - Statistics | 83191779e6c74593b7a99bea8c116e31           |
-+---------------------+--------------------------------------------+
-| Job ID - Fire       | fd78aec23f7d4995bf0799cdd38e7e6f           |
-+---------------------+--------------------------------------------+
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+| Operator_Number |      Network     | ETH_CHAIN_ID | Mainnet Block Explorer for getting API key | Testnet Block Explorer for deployed contract |
++=================+==================+==============+============================================+==============================================+
+|        1        | Arbitrum Rinkeby |    421611    |      https://arbiscan.io/myapikey          |       https://testnet.arbiscan.io/           |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+|        2        | Avalanche Fuji   |    43113     |      https://snowtrace.io/myapikey         |       https://testnet.snowtrace.io/          |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+|        3        | Ethereum Goerli  |    5         |      https://etherscan.io/myapikey         |       https://goerli.etherscan.io/           |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+|        4        | Ethereum Rinkeby |    4         |      https://etherscan.io/myapikey         |       https://rinkeby.etherscan.io/          |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+|        5        | Polygon Mumbai   |    80001     |      https://polygonscan.com/myapikey      |       https://mumbai.polygonscan.com/        |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+
+
 
 
 Accessing Shamba Chainlink Oracle
 ---------------------------------
 
-The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to provide the operator address above and the jobID of the analytics you need performed on a dataset. To make this process easier, we have provided tools for generating boilerplate smart contract code to interact with our data oracle.
+The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to import the ShambaGeoConsumer_ and ShambaFireConsumer_ smart-contracts from our smart-contract-kit_ or intall it via our npm_ module_. To make this process easier, we have provided tools like our contracts_ tool_ for generating boilerplate smart contract code to interact with our data oracle. And we also have our brownie_ and hardhat_ mixes setup for the Oracle Facing Smart Contracts to interact with the same.
 
 
 Requesting Data From The Oracle
 -------------------------------
 
-Format the data request using key-value pairs as shown in the README at this link_:
+Deploy your Oracle Facing Smart Contract and then fund the same with 1 test LINK corresponding to your deployed contract's network, and then call the ``requestGeostatsData()`` or ``requestFireData()`` function with the required parameters as explained in this README_. 
 
-Request Format for Statistics Data
-``````````````````````````````````
-("data","{"agg_x" : "string", "dataset_code" : "string", "selected_band" : "string", "image_scale" : integer, "start_date" : "string", "end_date" : "string", "geometry" : {"object}}")
+**NOTE**: You can get the LINK addresses and their corresponding faucets from here_.
 
-Request Format for Fire-Analysis Data
-`````````````````````````````````````
-("data","{"dataset_code" : "string", "selected_band" : "string", "image_scale" : integer, "start_date" : "string", "end_date" : "string", "geometry" : {"object}}")
-
-So, basically depending upon the request body, the common external adapter will trigger the statistics and fire GeoAPI endpoints.
-
-If the value of the data field is having “agg_x” field in its object, then the data will be sent to the statistics endpoint, otherwise it’ll be sent to the fire-analysis endpoint. 
-
-Along with this request being sent to the respective endpoints, the response of the GeoAPI along with the request body and other parameters like operator address, contract address from which the oracle being called, transaction hash generated after the successful oracle call, all of this data is being saved into the Web3 Storage by using the IPFS/Filecoin implementation for the same. 
-
-Response Data for Statistics
+Response Data for Geo-Statistics
 ````````````````````````````
 
 Data returned is of type map having two corresponding fields as a string storing the value of cid and an integer storing the value of geostatistic result (which is getting the value from the API multiplied by 10**18. This multiplication is done to remove all decimals from the data being returned on-chain).
+
+You can see the response by calling the ``getGeostatsData()`` and ``getCid()`` functions.
 
 Response Data for Fire-Analysis
 ```````````````````````````````
@@ -58,17 +52,7 @@ Data returned is of type map having two corresponding fields as a string that is
 
 We’re getting the value of fire-detection from the API as true or false, so assigning a value of 1 if it returns true and 9 if it returns false.
 
-Solidity Smart Contract for Statistics
-``````````````````````````````````````
-
-https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup/blob/master/SoliditySmartContracts/GeoConsumer.sol
-
-
-Solidity Smart Contract for Fire-Analysis
-`````````````````````````````````````````
-
-https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup/blob/master/SoliditySmartContracts/FireConsumer.sol
-
+You can see the response by calling the ``getFireData()`` and ``getCid()`` functions.
 
 Known Issues
 ------------
@@ -88,3 +72,14 @@ Specifications with very large areas of interest or long durations of time may c
 .. _link: https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup
 .. _Chainlink: https://docs.chain.link
 .. _documentation: https://docs.chain.link
+.. _smart-contract-kit: https://github.com/shambadynamic/shamba-smartcontractkit
+.. _ShambaGeoConsumer: https://github.com/shambadynamic/shamba-smartcontractkit/blob/main/contracts/ShambaGeoConsumer.sol
+.. _SHambaFireConsumer: https://github.com/shambadynamic/shamba-smartcontractkit/blob/main/contracts/ShambaFireConsumer.sol
+.. _npm: https://www.npmjs.com/package/@shambadynamic/contracts
+.. _module: https://www.npmjs.com/package/@shambadynamic/contracts
+.. _contracts: https://contracts.shamba.app
+.. _tool: https://contracts.shamba.app
+.. _brownie: https://github.com/shambadynamic/BrownieSetup_OracleFacingSmartContracts
+.. _hardhat: https://github.com/shambadynamic/HardhatSetup_OracleFacingSmartContracts
+.. _here: https://docs.chain.link/docs/link-token-contracts
+.. _README: https://github.com/shambadynamic/HardhatSetup_OracleFacingSmartContracts#readme

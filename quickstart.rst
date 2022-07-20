@@ -15,11 +15,13 @@ Shamba Oracle and Operator Numbers
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
 |        2        | Avalanche Fuji   |    43113     |      https://snowtrace.io/myapikey         |       https://testnet.snowtrace.io/          |
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        3        | Ethereum Goerli  |    5         |      https://etherscan.io/myapikey         |       https://goerli.etherscan.io/           |
+|        3        | Binance Testnet  |    97        |      https://bscscan.com/myapikey          |       https://testnet.bscscan.com/           |
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        4        | Ethereum Rinkeby |    4         |      https://etherscan.io/myapikey         |       https://rinkeby.etherscan.io/          |
+|        4        | Ethereum Goerli  |    5         |      https://etherscan.io/myapikey         |       https://goerli.etherscan.io/           |
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        5        | Polygon Mumbai   |    80001     |      https://polygonscan.com/myapikey      |       https://mumbai.polygonscan.com/        |
+|        5        | Ethereum Rinkeby |    4         |      https://etherscan.io/myapikey         |       https://rinkeby.etherscan.io/          |
++-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
+|        6        | Polygon Mumbai   |    80001     |      https://polygonscan.com/myapikey      |       https://mumbai.polygonscan.com/        |
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
 
 
@@ -28,7 +30,7 @@ Shamba Oracle and Operator Numbers
 Accessing Shamba Chainlink Oracle
 ---------------------------------
 
-The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to import the ShambaGeoConsumer_ and ShambaFireConsumer_ smart-contracts from our smart-contract-kit_ or intall it via our npm_ module_. To make this process easier, we have provided tools like our contracts_ tool_ for generating boilerplate smart contract code to interact with our data oracle. And we also have our brownie_ and hardhat_ mixes setup for the Oracle Facing Smart Contracts to interact with the same.
+The Shamba Chainlink oracle provides geospatial data to smart contracts. To access it you need to import the ShambaGeoConsumer_ and ShambaFireConsumer_ smart-contracts from our smart-contract-kit_ or install it via our npm_ module_. To make this process easier, we have provided tools like our contracts_ tool_ for generating boilerplate smart contract code to interact with our data oracle. And we also have our brownie_ and hardhat_ mixes setup for the Oracle Facing Smart Contracts to interact with the same.
 
 
 Requesting Data From The Oracle

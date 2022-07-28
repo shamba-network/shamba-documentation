@@ -1,6 +1,6 @@
-=============
+==============
 Contracts Tool
-=============
+==============
 
 The Contracts_ Tool_ aims to help a developer quickly generate smart contract boilerplate code with the parametric specifications of their choosing. It helps a user codify what they learned in the Insights tool into smart contract boilerplate code. This code can then be extended to serve any application a developer might need.
 

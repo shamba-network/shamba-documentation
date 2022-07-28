@@ -6,7 +6,7 @@ Our data is accessible through the Chainlink decentralized oracle network. The t
 
 
 Shamba Oracle and Operator Numbers
--------------------------
+----------------------------------
 
 +-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
 | Operator_Number |      Network     | ETH_CHAIN_ID | Mainnet Block Explorer for getting API key | Testnet Block Explorer for deployed contract |
@@ -43,7 +43,7 @@ Deploy your Oracle Facing Smart Contract and then fund the same with 1 test LINK
 **NOTE**: You can get the LINK addresses and their corresponding faucets from here_.
 
 Response Data for Geo-Statistics
-````````````````````````````
+````````````````````````````````
 
 Data returned is of type map having two corresponding fields as a string storing the value of cid and an integer storing the value of geostatistic result (which is getting the value from the API multiplied by 10**18. This multiplication is done to remove all decimals from the data being returned on-chain).
 

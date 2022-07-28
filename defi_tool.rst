@@ -1,5 +1,5 @@
 =============
-Contract Tool
+Contracts Tool
 =============
 
 The Contracts_ Tool_ aims to help a developer quickly generate smart contract boilerplate code with the parametric specifications of their choosing. It helps a user codify what they learned in the Insights tool into smart contract boilerplate code. This code can then be extended to serve any application a developer might need.
@@ -7,7 +7,7 @@ The Contracts_ Tool_ aims to help a developer quickly generate smart contract bo
 Introduction
 ------------
 
-Below is an interface from the Contract tool. The webmap on the left allows you to designate your area of interest while the panel on the right helps you codify the specifications for your parametric smart contract.
+Below is an interface from the Contracts tool. The webmap on the left allows you to designate your area of interest while the panel on the right helps you codify the specifications for your parametric smart contract.
 
 .. list-table:: 
 

@@ -58,20 +58,6 @@ We’re getting the value of fire-detection from the API as true or false, so as
 
 You can see the response by calling the ``getFireData()`` and ``getCid()`` functions.
 
-Known Issues
-------------
-
-The geospatial analytics engine for this oracle is built on the Google Cloud Platform. Any performance bottlenecks on services such as Google Earth Engine will affect the availability of this analytics engine. Developers are advised to build their smart contracts in such a way that data requests can be retried later if they fail at any given time.
-
-Similarly, how up-to-date a dataset served by this oracle is, depends on how up-to-date the GEE data registries are. We recommend reading more about a dataset you intend to use to learn about its details including granularity and availability.
-
-In particular, users are advised to check the geographic coverage of the dataset they want to use. Some datasets offer regional coverage while others offer global coverage.
-
-Links to the GEE pages for each dataset we provide are given in the datasets section of this documentation.
-
-Specifications with very large areas of interest or long durations of time may cause the analytics API to time out. Developers are advised to keep this in mind when specifying their geographical extents.
-
-
 
 .. _link: https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup
 .. _Chainlink: https://docs.chain.link

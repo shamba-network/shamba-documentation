@@ -37,7 +37,7 @@ Insights Tool
 Explore remote sensing datasets over an area of interest, examining both the temporal and spatial variation using graphs and maps.
 
 
-Contract Tool
+Contracts Tool
 ^^^^^^^^^^^^^
 
 .. list-table:: 
@@ -45,6 +45,6 @@ Contract Tool
     *   -   .. figure:: _static/defi_smart_code.png
                 :target: defi_tool.html
 
-                Contract tool
+                Contracts tool
 
 Create specifications for a parametric smart contract and generate boilerplate Solidity code that you can extend and customize into any application.

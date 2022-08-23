@@ -1207,7 +1207,7 @@ Vegetation
                 .. | Read More                | Link_32_                 |
                 .. +--------------------------+--------------------------+
 
-    *   - .. figure:: _static/Shamba_Dataset_Flyers_59.png
+    *   - .. figure:: _static/Shamba_Dataset_Flyers_58.png
                 
                 ..
 

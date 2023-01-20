@@ -5,26 +5,24 @@ Quick Start
 Our data is accessible through the Chainlink decentralized oracle network. The table below gives the list of networks supported by our oracle and their corresponding details that you need to specify so as to get data from our oracle. You can visit the Chainlink_ documentation_ to learn more about working with their oracle network.
 
 
-Shamba Oracle and Operator Numbers
-----------------------------------
+Shamba Oracle and Chain Ids
+----------------------------
 
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-| Operator_Number |      Network     | ETH_CHAIN_ID | Mainnet Block Explorer for getting API key | Testnet Block Explorer for deployed contract |
-+=================+==================+==============+============================================+==============================================+
-|        1        | Arbitrum Rinkeby |    421611    |      https://arbiscan.io/myapikey          |       https://testnet.arbiscan.io/           |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        2        | Avalanche Fuji   |    43113     |      https://snowtrace.io/myapikey         |       https://testnet.snowtrace.io/          |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        3        | Binance Testnet  |    97        |      https://bscscan.com/myapikey          |       https://testnet.bscscan.com/           |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        4        | Ethereum Goerli  |    5         |      https://etherscan.io/myapikey         |       https://goerli.etherscan.io/           |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        5        | Ethereum Rinkeby |    4         |      https://etherscan.io/myapikey         |       https://rinkeby.etherscan.io/          |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        6        | Moonbase Alpha   |    1287      |      https://moonscan.io/myapikey          |       https://moonbase.moonscan.io/          |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
-|        7        | Polygon Mumbai   |    80001     |      https://polygonscan.com/myapikey      |       https://mumbai.polygonscan.com/        |
-+-----------------+------------------+--------------+--------------------------------------------+----------------------------------------------+
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+|      Network     | ETH_CHAIN_ID | Mainnet Block Explorer for getting API key     | Testnet Block Explorer for deployed contract |
++==================+==============+================================================+==============================================+
+| Avalanche Fuji   |    43113     |      https://snowtrace.io/myapikey             |       https://testnet.snowtrace.io/          |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+| Binance Testnet  |    97        |      https://bscscan.com/myapikey              |       https://testnet.bscscan.com/           |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+| Ethereum Goerli  |    5         |      https://etherscan.io/myapikey             |       https://goerli.etherscan.io/           |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+| Moonbase Alpha   |    1287      |      https://moonscan.io/myapikey              |       https://moonbase.moonscan.io/          |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+| Optimism Goerli  |    420       |      https://optimistic.etherscan.io/myapikey  |       https://goerli-optimism.etherscan.io/  |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
+| Polygon Mumbai   |    80001     |      https://polygonscan.com/myapikey          |       https://mumbai.polygonscan.com/        |
++------------------+--------------+------------------------------------------------+----------------------------------------------+
 
 
 
@@ -47,7 +45,7 @@ Response Data for Geo-Statistics
 
 Data returned is of type map having two corresponding fields as a string storing the value of cid and an integer storing the value of geostatistic result (which is getting the value from the API multiplied by 10**18. This multiplication is done to remove all decimals from the data being returned on-chain).
 
-You can see the response by calling the ``getGeostatsData()`` and ``getCid()`` functions.
+You can see the response by calling the ``getGeostatsData()`` and ``getLatestCid()`` functions.
 
 Response Data for Fire-Analysis
 ```````````````````````````````
@@ -56,7 +54,7 @@ Data returned is of type map having two corresponding fields as a string that is
 
 We’re getting the value of fire-detection from the API as true or false, so assigning a value of 1 if it returns true and 9 if it returns false.
 
-You can see the response by calling the ``getFireData()`` and ``getCid()`` functions.
+You can see the response by calling the ``getFireData()`` and ``getLatestCid()`` functions.
 
 
 .. _link: https://github.com/shambadynamic/Shamba_Geostats_Fire_Common_Setup

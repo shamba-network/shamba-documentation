@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Shamba'
-copyright = "2021, Shamba"
-author = "Kennedy Ng'ang'a, Mohammed Mwijaa, Sam Kibuhi, Steve Firsake"
+copyright = "2023, Shamba"
+author = "Kennedy Ng'ang'a, Mohammed Mwijaa, Sam Kibuhi, Steve Firsake, Syed Asad Kazmi"
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
